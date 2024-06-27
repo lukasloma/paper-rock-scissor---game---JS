@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>GAME : "Tic Tac Toe"</h1>
+    <h3>Please take option:</h3>
+    <div class="select">
+      <img data-option="paper" src="papier.jpg" alt="" />
+      <img data-option="rock" src="kamien.jpg" alt="" />
+      <img data-option="scissor" src="nozyczki.jpg" alt="" />
+    </div>
+    <button class="start">Let's play!</button>
+    <div class="panel-left">
+      <h3>Game results</h3>
+      <p>Your choice: <span data-summary="your-choice"></span></p>
+      <p>AI choice: <span data-summary="ai-choice"></span></p>
+      <h2>Winner the game: <span data-summary="who-win"></span></h2>
+    </div>
+    <div class="panel-right">
+      <h3>Actual Resoult</h3>
+      <p class="numbers">How many games:<span>0</span></p>
+      <p class="wins">Wins:<span>0</span></p>
+      <p class="losses">Losses:<span>0</span></p>
+      <p class="draws">Draws:<span>0</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

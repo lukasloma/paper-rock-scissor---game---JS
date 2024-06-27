@@ -1,0 +1,25 @@
+body {
+  position: relative;
+  text-align: center;
+}
+h1,
+h3 {
+  text-align: center;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
